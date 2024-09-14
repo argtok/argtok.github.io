@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header styling for Argisli Tokaj */
+#main-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#main-header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Horizontal navigation styling */
+#nav-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  background-color: #333;
+}
+
+#nav-ul li {
+  margin: 0 15px;
+}
+
+#nav-ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+#nav-ul li a:hover {
+  background-color: #555;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Section content */
+.content-section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Image gallery styling */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-gallery img {
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
