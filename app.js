@@ -3,13 +3,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // List of your image file names stored in the "images" folder
   const imageFiles = [
-    "albania_beach.jpg",         // For beach in Tourism section
-    "albanian_alps.jpg",         // For Albanian Alps in Tourism section
+    "albania_flag.jpg",          // For the Albanian flag in the summary section
+    "albania_beach.jpg",         // For the beach in the Tourism section
+    "albanian_alps.jpg",         // For the Albanian Alps in the Tourism section
     "tirana.jpg",                // For Tirana city in Cities to Visit
     "shkodra.jpg",               // For Shkodër city in Cities to Visit
     "korce.jpg",                 // For Korçë city in Cities to Visit
-    "durres_marina.jpg",         // For Durres Marina in Future section
-    "vlora_marina.jpg"           // For Vlora Marina in Future section
+    "durres_marina.jpg",         // For Durres Marina in the Future section
+    "vlora_marina.jpg"           // For Vlora Marina in the Future section
   ];
 
   // Loop through each <img> element on the page and assign an image from the array
